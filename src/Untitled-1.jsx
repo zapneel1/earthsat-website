@@ -2442,7 +2442,7 @@ body {
                 whiteSpace: "nowrap",
               }}
             >
-              © 2025 JACK LEMKUS - ALL RIGHTS RESERVED
+              © 2025 EARTHSAT - ALL RIGHTS RESERVED
             </span>
           </div>
           <div
@@ -2538,5 +2538,6 @@ body {
     </>
   );
 }
+
 
 export default Coponent
