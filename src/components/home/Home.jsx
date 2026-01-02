@@ -8,8 +8,9 @@ const Home = ({launch,title,btn,txt,desktop,mobile,video,Element}) => {
                     <div className="media">
                     {video == null ? 
                     <picture>
-                           <img srcSet={desktop} media="(min-width: 600px)" />
-                           <source srcSet={mobile} media="(max-width: 599px)" />
+                            <source srcSet={desktop} media="(min-width: 600px)" />
+                            <source srcSet={mobile} media="(max-width: 599px)" />
+                            <img src={desktop} alt="Responsive content" />
                     </picture> 
                     :
                     <video src={video} autoPlay loop muted/>
@@ -52,5 +53,6 @@ const Home = ({launch,title,btn,txt,desktop,mobile,video,Element}) => {
 
 
 export default Home
+
 
 
