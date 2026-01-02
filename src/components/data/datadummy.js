@@ -32,10 +32,11 @@ export const DataPages = [
     title: "OWN SATELLITE CONSTELLATION",
     launch: "",
     txt: "With our group entity 'VOLANBOT', we are currently developing a satellite constellation of our own, specially customized for our requirements. Launch of satellites are stated to begin during last quarter of 2026.",
-    desktop: "./image/abb5a03fa6d388f211e626bcedd2d6b1.jpg",
+    desktop: "./image/xrctvfygbuhnjimok.jpg",
     mobile: "./image/abb5a03fa6d388f211e626bcedd2d6b1.jpg"
 }
 ]
+
 
 
 
